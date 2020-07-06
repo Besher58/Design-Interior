@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    width: 50%;
+    margin: auto 0;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+.text h1{
+    letter-spacing: 0.5em;
+    font-size: 4.8em;
+    padding:0 0 4% 6%;
+}
+.text p{
+    letter-spacing: 3px;
+}
+main{
+    background: #2e2e2e;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: #2e2e2e;
+}
+.ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+}
+.li{
+    padding-left: 15%;
+    letter-spacing: 2px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#hero{
+    display: flex;
+    margin: 10% 0 0;
+    padding-bottom: 8%;
+}
+.text1{
+    text-align: center;
+    margin: auto 0;
+    color: white;
+}
+.h1{
+    font-size: 2em;
+    font-weight: 100;
+}
+.p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2em;
+    text-align: left;
+    padding:2% 2% 0 5%;
+    word-spacing: 8px;
+    line-height: 1.5em;
+}
+#release{
+    background: white;
+    text-align: center;
+    padding: 15% 0 0;
+}
+#release .p{
+    width: 40%;
+    margin: 0 auto;
+}
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 5% auto;
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 8%;
+}
+.img{
+    width: 100%;
+}
+figure{
+    width: 30%;
+}
+figcaption{
+    font-size: large;
+}
+iframe{
+    margin: 5% auto;
+}
+.footer{
+    background:#2e2e2e;
+    display: flex;
+    color: white;
+    padding: 7% 0;
+}
+.left{
+    width: 40%;
+    margin:auto 5%;
+}
+.left .p{
+    margin: 5% 0;
+    padding-left: 0;
+}
+.right{
+    padding-left: 10%;
+    width: 50%;
+}
+label{
+    font-family: 'Lora', serif;
+    font-size:1.5em ;
+}
+input{
+    display: block;
+    width: 70%;
+    padding: 3px 0;
+    font-size: 0.8em;
+    margin-bottom: 5%;
+}
+.sub{
+    width: 10%;
+}
+.height{
+    padding-bottom: 20px;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    background:#1d2c2f;
+    height: 15vh;
+    align-items: center;
+    color: white;
+    padding: 0 2%;
+    letter-spacing: 2px;
+}
+.nav1 h3{
+    font-weight: 100;
+    font-family: 'Lora', serif;
+}
+.ul1{
+    display: flex;
+    list-style: none;
+    width: 28%;
+}
+.li1{
+    margin-right: 15%;
+    font-size: 1.18em
+}
