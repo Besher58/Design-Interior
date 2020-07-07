@@ -127,7 +127,10 @@ input{
     margin-bottom: 5%;
 }
 .sub{
-    width: 10%;
+    width: 12%;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 .height{
     padding-bottom: 20px;
